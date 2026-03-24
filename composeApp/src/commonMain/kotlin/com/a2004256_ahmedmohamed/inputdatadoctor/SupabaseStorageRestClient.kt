@@ -27,10 +27,10 @@ object SupabaseStorageRestClient {
     private const val SUPABASE_URL = "https://uhbkbigqycrlidisehcp.supabase.co"
 
     // استخدم Service Role Key للعمليات الإدارية (تخزينه بأمان)
-    private const val SUPABASE_SERVICE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVoYmtiaWdxeWNybGlkaXNlaGNwIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2NjMyNTU4NywiZXhwIjoyMDgxOTAxNTg3fQ.hFdLVxbjGtiOcykHtmXbShqVcngWrGWEi1X4y9_U2xE"
+    private const val SUPABASE_SERVICE_KEY = "SUPABASE_SERVICE_KEY"
 
     // أو استخدم Anon Key للعمليات العامة
-    private const val SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVoYmtiaWdxeWNybGlkaXNlaGNwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjYzMjU1ODcsImV4cCI6MjA4MTkwMTU4N30.xgle1DhS85T2PDSBV1Gkg2-E2W5hm2kjcy2zx4RIQjA"
+    private const val SUPABASE_ANON_KEY = "SUPABASE_ANON_KEY"
 
     private const val BUCKET_NAME = "image" // تأكد أن الاسم صحيح
 
