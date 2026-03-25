@@ -12,9 +12,9 @@ fun main() {
 
     Firebase.initialize(
         options = FirebaseOptions(
-            applicationId = "1:341932665810:android:53f1796e496878afdeb60b",
-            apiKey = "AIzaSyCdgy1iQLpQxYN03d7-_aWolTEcV_oigdg",
-            projectId = "inputdata-48d12"
+            applicationId = "",
+            apiKey = "",
+            projectId = ""
         )
     )
 
